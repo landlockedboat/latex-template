@@ -1,0 +1,23 @@
+% Loading preamble.tex
+\input{docs/preamble}
+% Header info
+\author{Víctor Alcázar}
+\title{Latex Template}
+\date{\today}
+% Start of the document
+\begin{document}
+% Title goes here
+\maketitle
+% Draw table of contents
+\tableofcontents
+% Draw all the remaining parts of the document
+\input{docs/introduction}
+\input{docs/body}
+% \input{docs/another_section}
+% \input{docs/even_another_section}
+\input{docs/conclussion}
+% Draw tha bibliograph.
+\bibliographystyle{unsrt}
+\bibliography{refs/references}
+% End of the document
+\end{document}
